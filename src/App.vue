@@ -4,7 +4,7 @@
       <Navbar />
     </header>
     <main>
-      main
+      <AboutMe />
     </main>
     <footer>
       footer
@@ -16,11 +16,13 @@
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from './components/HelloWorld.vue';
 import Navbar from './components/Navbar.vue';
+import AboutMe from './components/AboutMe.vue';
 
 @Component({
   components: {
     HelloWorld,
     Navbar,
+    AboutMe,
   },
 })
 export default class App extends Vue {}
@@ -35,6 +37,10 @@ html {
 body {
   margin: 0px;
   padding: 0px;
+}
+
+main {
+  margin: 10px;
 }
 
 #app {
