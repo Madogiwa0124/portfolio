@@ -5,6 +5,7 @@
     <div class="skills__collection">
       <Card fileName="ruby.png" />
       <Card fileName="rails.png" />
+      <Card fileName="rspec.png" />
       <Card fileName="es6.png" />
       <Card fileName="vue.png" />
     </div>
