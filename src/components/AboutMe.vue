@@ -1,14 +1,9 @@
 <template>
   <div class="aboutme">
-    <h2 class="aboutme--title">About Me</h2>
     <div class="aboutme__content">
-      <h4 class="aboutme__content--title">自己紹介</h4>
+      <h3 class="aboutme__content--title">Madogiwa</h3>
       <p class="aboutme__content--body">
-        都内の某ヘルステック系企業で働く窓際Railsエンジニアです👩‍💻
-      </p>
-      <h4 class="aboutme__content--title">好きなもの</h4>
-      <p class="aboutme__content--body">
-        web漫画、プロレス、webサービス作ること🙌
+        都内のITベンチャーで働く窓際Webプログラマーです👩‍💻
       </p>
     </div>
   </div>
