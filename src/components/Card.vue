@@ -10,9 +10,7 @@ import { Component, Vue, Prop } from 'vue-property-decorator';
 
 @Component
 export default class Card extends Vue {
-  @Prop() public title!: string;
   @Prop() public fileName!: string;
-  @Prop() public body!: string;
 
   public loadImg(): any {
     return require(`../assets/${this.fileName}`);
