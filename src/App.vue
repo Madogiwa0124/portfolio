@@ -5,6 +5,7 @@
     </header>
     <main>
       <AboutMe />
+      <Skills />
     </main>
     <footer>
       footer
@@ -17,12 +18,14 @@ import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from './components/HelloWorld.vue';
 import Navbar from './components/Navbar.vue';
 import AboutMe from './components/AboutMe.vue';
+import Skills from './components/Skills.vue';
 
 @Component({
   components: {
     HelloWorld,
     Navbar,
     AboutMe,
+    Skills,
   },
 })
 export default class App extends Vue {}
