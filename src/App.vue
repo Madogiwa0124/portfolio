@@ -7,6 +7,7 @@
     <main>
       <Skills />
       <MyApps @showModal="handleShowModal" />
+      <Blogs />
       <Modal
         :title="state.currentModalProps.title"
         :body="state.currentModalProps.body"
@@ -32,6 +33,7 @@ import AboutMe from './components/AboutMe.vue';
 import Skills from './components/Skills.vue';
 import MyApps from './components/MyApps.vue';
 import Modal from './components/Modal.vue';
+import Blogs from './components/Blogs.vue';
 
 @Component({
   components: {
@@ -40,6 +42,7 @@ import Modal from './components/Modal.vue';
     AboutMe,
     Skills,
     MyApps,
+    Blogs,
     Modal,
   },
 })
