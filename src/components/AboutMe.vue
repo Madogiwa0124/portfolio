@@ -32,7 +32,7 @@ export default class AboutMe extends Vue {
 </script>
 <style lang="scss" scoped>
   .aboutme{
-    background-color: #F6F6FF;
+    background-color: #F6F6F6;
 
     .aboutme__content {
       text-align: center;

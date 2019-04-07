@@ -23,6 +23,9 @@ export default class BlogCard extends Vue {
 <style lang="scss" scoped>
   .blog-card {
     width: 45%;
+    @media screen and (min-width:480px) {
+      width: 30%;
+    }
     margin: 5px;
     border-bottom: 1px #4CAF50 solid;
     cursor: pointer;
@@ -37,7 +40,10 @@ export default class BlogCard extends Vue {
 
     img {
       width: 100%;
-      max-height: 300px;
+      max-height: 150px;
+      @media screen and (min-width:480px) {
+        max-height: 250px;
+      }
     }
   }
 </style>

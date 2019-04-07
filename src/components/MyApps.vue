@@ -1,6 +1,6 @@
 <template>
   <div class="my-apps" id="my-apps">
-    <h2 class="my-apps--title">my Apps</h2>
+    <h2 class="my-apps--title">My apps</h2>
     <div class="my-apps__collection">
       <Card
         title="MultiTabMarkdownEditor"

@@ -16,7 +16,7 @@ import { Component, Vue, Prop } from 'vue-property-decorator';
 import BlogCard from './BlogCard.vue';
 import axios from 'axios';
 
-const BLOGS_LIMIT = 4;
+const BLOGS_LIMIT = 6;
 
 @Component ({
   components: { BlogCard },

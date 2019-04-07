@@ -26,7 +26,7 @@ export default class Navbar extends Vue {
   public items: any[] = [
     { href: '#skills', title: 'Skills', isActive: false },
     { href: '#my-apps', title: 'My apps', isActive: false },
-    { href: '#blog', title: 'Blog', isActive: false },
+    { href: '#blogs', title: 'Blogs', isActive: false },
   ];
 
   public hundleOnItemActivate(index: number): void {
