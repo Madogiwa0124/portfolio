@@ -3,8 +3,8 @@
     <header>
       <Navbar />
     </header>
+    <AboutMe />
     <main>
-      <AboutMe />
       <Skills />
       <MyApps @showModal="handleShowModal" />
       <Modal
@@ -67,7 +67,7 @@ body {
 }
 
 main {
-  margin: 10px;
+  margin: 2em;
 }
 
 #app {
