@@ -6,6 +6,16 @@
     <main>
       <AboutMe />
       <Skills />
+      <MyApps @showModal="handleShowModal" />
+      <Modal
+        :title="state.currentModalProps.title"
+        :body="state.currentModalProps.body"
+        :fileName="state.currentModalProps.fileName"
+        :link="state.currentModalProps.link"
+        :tags="state.currentModalProps.tags"
+        :showModal="state.currentModalProps.showModal"
+        @closeModal="handleCloseModal"
+      />
     </main>
     <footer>
       footer
@@ -14,11 +24,14 @@
 </template>
 
 <script lang="ts">
+import store from './store';
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from './components/HelloWorld.vue';
 import Navbar from './components/Navbar.vue';
 import AboutMe from './components/AboutMe.vue';
 import Skills from './components/Skills.vue';
+import MyApps from './components/MyApps.vue';
+import Modal from './components/Modal.vue';
 
 @Component({
   components: {
@@ -26,9 +39,20 @@ import Skills from './components/Skills.vue';
     Navbar,
     AboutMe,
     Skills,
+    MyApps,
+    Modal,
   },
 })
-export default class App extends Vue {}
+export default class App extends Vue {
+  public state: any = store.state;
+
+  public handleShowModal(modalProps: any): void {
+    this.state.currentModalProps = modalProps;
+  }
+  public handleCloseModal(): void {
+    this.state.currentModalProps.showModal = false;
+  }
+}
 </script>
 
 <style lang="scss">
