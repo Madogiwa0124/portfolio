@@ -3,28 +3,26 @@
     <h2>Skills</h2>
     <h3 class="skills--title">in work</h3>
     <div class="skills__collection">
-      <Card fileName="ruby.png" />
-      <Card fileName="rails.png" />
-      <Card fileName="rspec.png" />
-      <Card fileName="sidekiq.png" />
-      <Card fileName="es6.png" />
-      <Card fileName="vue.png" />
-    </div>
-    <div class="skills__collection">
-      <Card fileName="mysql.png" />
-      <Card fileName="git.png" />
-      <Card fileName="github.png" />
-      <Card fileName="docker.png" />
-      <Card fileName="esa.png" />
+      <Card fileName="skills/ruby.png" />
+      <Card fileName="skills/rails.png" />
+      <Card fileName="skills/rspec.png" />
+      <Card fileName="skills/sidekiq.png" />
+      <Card fileName="skills/es6.png" />
+      <Card fileName="skills/vue.png" />
+      <Card fileName="skills/mysql.png" />
+      <Card fileName="skills/git.png" />
+      <Card fileName="skills/github.png" />
+      <Card fileName="skills/docker.png" />
+      <Card fileName="skills/esa.png" />
     </div>
     <h3 class="skills--title">in hoby</h3>
     <div class="skills__collection">
-      <Card fileName="ionic.png" />
-      <Card fileName="typescript.png" />
-      <Card fileName="firestore.png" />
-      <Card fileName="postgresql.png" />
-      <Card fileName="heroku.png" />
-      <Card fileName="circleci.png" />
+      <Card fileName="skills/ionic.png" />
+      <Card fileName="skills/typescript.png" />
+      <Card fileName="skills/firestore.png" />
+      <Card fileName="skills/postgresql.png" />
+      <Card fileName="skills/heroku.png" />
+      <Card fileName="skills/circleci.png" />
     </div>
   </div>
 </template>
@@ -44,6 +42,7 @@ export default class AboutMe extends Vue {
   .skills {
     .skills__collection {
       display: flex;
+      flex-wrap: wrap;
     }
   }
 </style>
