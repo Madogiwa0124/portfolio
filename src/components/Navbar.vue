@@ -2,7 +2,7 @@
   <div class="navbar">
     <ul class="navbar__list">
       <li class="navbar__list--brand">
-        <a href="/">Madogiwa's Portfolio</a>
+        <a href="/">Portfolio</a>
       </li>
       <NavbarItem
         v-for="(item, index) in items"
@@ -24,9 +24,7 @@ import NavbarItem from './NavbarItem.vue';
 })
 export default class Navbar extends Vue {
   public items: any[] = [
-    { href: '#about-me', title: 'Abount me', isActive: false },
     { href: '#skills', title: 'Skills', isActive: false },
-    { href: '#contact', title: 'Contact', isActive: false },
     { href: '#my-apps', title: 'My apps', isActive: false },
     { href: '#blog', title: 'Blog', isActive: false },
   ];

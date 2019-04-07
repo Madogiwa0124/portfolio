@@ -42,13 +42,17 @@ export default class Card extends Vue {
   .modal-card {
     cursor: pointer;
     margin: 5px;
-    width: 10%;
+    width: 20%;
+    @media screen and (min-width:480px) {
+      width: 10%;
+    }
     border: 1px solid $border-color;
     border-radius: 5px;
     align-items: center;
     display: flex;
 
     .modal-card--image {
+      margin: 0 auto;
       padding: 5px;
       img {
         width: 100%;
@@ -58,6 +62,6 @@ export default class Card extends Vue {
   .modal-card:hover {
     transform: scale(1.1,1.1);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, .33);
-    transition-duration:0.3s;
+    transition-duration:0.5s;
   }
 </style>

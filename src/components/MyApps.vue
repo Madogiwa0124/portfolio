@@ -1,6 +1,6 @@
 <template>
-  <div class="my-apps">
-    <h2>my Apps</h2>
+  <div class="my-apps" id="my-apps">
+    <h2 class="my-apps--title">my Apps</h2>
     <div class="my-apps__collection">
       <Card
         title="MultiTabMarkdownEditor"
@@ -50,8 +50,6 @@
         link="https://twitter.com/ruby_study_bot"
         @showModal="hundleShowModal"
       />
-    </div>
-    <div class="my-apps__collection">
       <Card
         title="spp"
         body="special pretty print library"
@@ -80,8 +78,13 @@ export default class MyApps extends Vue {
 </script>
 <style lang="scss" scoped>
   .my-apps {
+    .my-apps--title {
+      border-left: 2px solid #4CAF50;
+      padding-left: 15px;
+    }
     .my-apps__collection {
       display: flex;
+      flex-wrap: wrap;
     }
   }
 </style>
