@@ -16,6 +16,7 @@ export default class ModalCard extends Vue {
   $color: #FFFFFF;
 
   .tags {
+    font-size: small;
     color: $color;
     margin: 2px;
     padding: 3px;

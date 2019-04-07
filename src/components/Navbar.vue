@@ -48,7 +48,7 @@ export default class Navbar extends Vue {
           color: $brand-color;
           font-weight: bold;
           text-align: center;
-          padding: 14px 16px;
+          padding: 14px 10px;
           text-decoration: none;
         }
       }

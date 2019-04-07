@@ -74,9 +74,12 @@ export default class Modal extends Vue {
   }
 
   .modal-container {
-    width: 300px;
+    width: 250px;
+    @media screen and (min-width:480px) {
+      width: 300px;
+    }
     margin: 0px auto;
-    padding: 20px 20px;
+    padding: 10px 10px;
     background-color: $bg-color;
     border-radius: 2px;
     box-shadow: 0 2px 8px shadow-color;
@@ -92,7 +95,7 @@ export default class Modal extends Vue {
     margin: 20px 0;
     word-wrap: break-word;
     img {
-      max-width: 100%;
+      width: 100%;
     }
   }
 
