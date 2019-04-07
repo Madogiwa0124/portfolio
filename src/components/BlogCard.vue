@@ -16,7 +16,7 @@ export default class BlogCard extends Vue {
   @Prop() public link?: string;
 
   public redirect_to(url: string) {
-    location.href=url;
+    location.href = url;
   }
 }
 </script>

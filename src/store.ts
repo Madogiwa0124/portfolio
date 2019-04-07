@@ -6,7 +6,7 @@ export default {
       fileName: '',
       link: '',
       tags: [],
-      showModal: false
+      showModal: false,
     },
-  }
-}
+  },
+};

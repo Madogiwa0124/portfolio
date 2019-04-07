@@ -30,7 +30,7 @@ import { Component, Vue, Prop } from 'vue-property-decorator';
 import Tag from './Tag.vue';
 
 @Component({
-  components: { Tag }
+  components: { Tag },
 })
 
 export default class Modal extends Vue {
@@ -41,8 +41,8 @@ export default class Modal extends Vue {
   @Prop() public link!: string;
   @Prop() public showModal: boolean = false;
 
-  public closeModal() :void {
-    this.$emit('closeModal')
+  public closeModal(): void {
+    this.$emit('closeModal');
   }
 
   public loadImg(): any {

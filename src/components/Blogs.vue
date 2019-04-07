@@ -14,40 +14,38 @@
 <script lang="ts">
 import { Component, Vue, Prop } from 'vue-property-decorator';
 import BlogCard from './BlogCard.vue';
-import axios from 'axios'
+import axios from 'axios';
 
 const BLOGS_LIMIT = 4;
 
 @Component ({
-  components: { BlogCard }
+  components: { BlogCard },
 })
 export default class Blogs extends Vue {
-  endpoint: string = 'https://madogiwa0124.hatenablog.com/rss'
-  blogs: object[] = [];
-  parser: DOMParser = new DOMParser();
+  public endpoint: string = 'https://madogiwa0124.hatenablog.com/rss';
+  public blogs: object[] = [];
+  public parser: DOMParser = new DOMParser();
 
-  created () {
-    axios.get(this.endpoint).then(res  => {
-      const rssDom = this.parser.parseFromString(res.data, 'text/xml')
-      this.buildRssBlogItems(rssDom)
-    }).catch(err => {
-      console.log(err)
+  public created() {
+    axios.get(this.endpoint).then((res)  => {
+      const rssDom = this.parser.parseFromString(res.data, 'text/xml');
+      this.buildRssBlogItems(rssDom);
     });
   }
 
   private buildRssBlogItems(dom: Document): void {
-    dom.querySelectorAll('item').forEach(item => {
-      const dom = this.parser.parseFromString(item.innerHTML, 'text/html');
-      this.blogs.push(this.blogProps(dom))
-    })
-    this.blogs = this.blogs.slice(0, BLOGS_LIMIT)
+    dom.querySelectorAll('item').forEach((item) => {
+      const itemDom = this.parser.parseFromString(item.innerHTML, 'text/html');
+      this.blogs.push(this.blogProps(itemDom));
+    });
+    this.blogs = this.blogs.slice(0, BLOGS_LIMIT);
   }
 
   private blogProps(dom: Document): object  {
     const thumbnail = dom.querySelector('enclosure')!.getAttribute('url');
     const title = dom.querySelector('title')!.text;
     const link = dom.querySelector('body')!.firstChild!.textContent!.trim();
-    return { title: title, thumbnail: thumbnail, link: link }
+    return { title, thumbnail, link };
   }
 }
 </script>

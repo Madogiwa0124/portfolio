@@ -32,7 +32,7 @@ export default class Card extends Vue {
       body: this.body,
       tags: this.tags,
       link: this.link,
-      showModal: true
+      showModal: true,
     };
   }
 }
