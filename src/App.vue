@@ -19,7 +19,7 @@
       />
     </main>
     <footer>
-      footer
+      © copyright 2019 Madogiwa All Rights Reserved.
     </footer>
   </div>
 </template>
@@ -70,7 +70,13 @@ body {
 }
 
 main {
-  margin: 2em;
+  margin: 1.5em;
+}
+
+footer {
+  color: #FFFFFF;
+  background-color: #333;
+  padding: 20px;
 }
 
 #app {
