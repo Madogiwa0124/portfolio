@@ -22,7 +22,8 @@ const BLOGS_LIMIT = 4;
   components: { BlogCard },
 })
 export default class Blogs extends Vue {
-  public endpoint: string = 'https://madogiwa0124.hatenablog.com/rss';
+  @Prop() public endpoint!: string;
+
   public blogs: object[] = [];
   public parser: DOMParser = new DOMParser();
 

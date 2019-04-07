@@ -7,7 +7,7 @@
     <main>
       <Skills />
       <MyApps @showModal="handleShowModal" />
-      <Blogs />
+      <Blogs endpoint="https://madogiwa0124.hatenablog.com/rss" />
       <Modal
         :title="state.currentModalProps.title"
         :body="state.currentModalProps.body"
