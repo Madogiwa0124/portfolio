@@ -2,7 +2,7 @@
   <div class="aboutme">
     <div class="aboutme__content">
       <h3 class="aboutme__content--title">Madogiwa</h3>
-      <img src="https://pbs.twimg.com/profile_images/1060339222085697536/2f3ffaLs_400x400.jpg">
+      <img class="aboutme__content--icon" src="https://pbs.twimg.com/profile_images/1060339222085697536/2f3ffaLs_400x400.jpg">
       <p class="aboutme__content--body">
         都内のIT企業で働く窓際Webプログラマーです👩‍💻
         <ul class="contacts">
@@ -19,14 +19,18 @@
             </a>
           </li>
         </ul>
+        <GithubActivity accountId="Madogiwa0124" />
       </p>
     </div>
   </div>
 </template>
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import GithubActivity from './GithubActivity.vue';
 
-@Component
+@Component ({
+  components: { GithubActivity },
+})
 export default class AboutMe extends Vue {
 }
 </script>
@@ -38,7 +42,7 @@ export default class AboutMe extends Vue {
       text-align: center;
       padding: 20px;
 
-      img {
+      .aboutme__content--icon {
         border-radius: 200px;
         max-width: 20%;
       }
