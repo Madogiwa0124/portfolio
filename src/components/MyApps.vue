@@ -58,6 +58,14 @@
         link="https://rubygems.org/gems/spp"
         @showModal="hundleShowModal"
       />
+      <Card
+        title="CronConfigParser"
+        body="parse the cron configuration for readability"
+        fileName="my_apps/cron_config_parser.png"
+        :tags="['ruby', 'ruby gem']"
+        link="https://rubygems.org/gems/cron_config_parser"
+        @showModal="hundleShowModal"
+      />
     </div>
   </div>
 </template>

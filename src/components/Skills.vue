@@ -23,6 +23,8 @@
       <Card fileName="skills/firestore.png" />
       <Card fileName="skills/postgresql.png" />
       <Card fileName="skills/heroku.png" />
+      <Card fileName="skills/swift.png" />
+      <Card fileName="skills/xcode.png" />
     </div>
   </div>
 </template>
