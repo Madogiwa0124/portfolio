@@ -66,6 +66,14 @@
         link="https://rubygems.org/gems/cron_config_parser"
         @showModal="hundleShowModal"
       />
+      <Card
+        title="Makanai"
+        body="simple web application framework for learning."
+        fileName="my_apps/makanai.png"
+        :tags="['ruby', 'ruby gem']"
+        link="https://rubygems.org/gems/makanai"
+        @showModal="hundleShowModal"
+      />
     </div>
   </div>
 </template>
