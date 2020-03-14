@@ -19,7 +19,7 @@
       />
     </main>
     <footer>
-      © copyright 2019 Madogiwa All Rights Reserved.
+      © copyright 2020 Madogiwa All Rights Reserved.
     </footer>
   </div>
 </template>
