@@ -1,4 +1,5 @@
 # portfolio
+![github pages](https://github.com/Madogiwa0124/portfolio/workflows/github%20pages/badge.svg)
 
 ## Project setup
 ```
