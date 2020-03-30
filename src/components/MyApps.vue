@@ -74,6 +74,14 @@
         link="https://rubygems.org/gems/makanai"
         @showModal="hundleShowModal"
       />
+      <Card
+        title="ActiveRecordJsonExplain"
+        body="This gem extends ActiveRecord::Relation#explain to make it possible to get EXPLAIN in JSON format."
+        fileName="my_apps/active_record_json_explain.png"
+        :tags="['ruby', 'ruby gem']"
+        link="https://rubygems.org/gems/active_record_json_explain"
+        @showModal="hundleShowModal"
+      />
     </div>
   </div>
 </template>
