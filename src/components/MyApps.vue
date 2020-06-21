@@ -82,6 +82,22 @@
         link="https://rubygems.org/gems/active_record_json_explain"
         @showModal="hundleShowModal"
       />
+      <Card
+        title="TravelToJavascript"
+        body="provides a helper `travel_to_javascript` that locks time in javascript."
+        fileName="my_apps/travel_to_javascript.png"
+        :tags="['ruby', 'ruby gem']"
+        link="https://rubygems.org/gems/travel_to_javascript"
+        @showModal="hundleShowModal"
+      />
+      <Card
+        title="TickTube"
+        body="YouTubeの動画をスワイプして閲覧できるViewer"
+        fileName="my_apps/ticktube.png"
+        :tags="['Vue', 'TypeScript', 'es6', 'YouTube Date API']"
+        link="https://madogiwa0124.github.io/ticktube/"
+        @showModal="hundleShowModal"
+      />
     </div>
   </div>
 </template>
