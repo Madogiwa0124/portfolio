@@ -20,6 +20,8 @@
     <div class="skills__collection">
       <Card fileName="skills/ionic.png" />
       <Card fileName="skills/typescript.png" />
+      <Card fileName="skills/webpack.png" />
+      <Card fileName="skills/travisci.png" />
       <Card fileName="skills/firestore.png" />
       <Card fileName="skills/postgresql.png" />
       <Card fileName="skills/heroku.png" />
