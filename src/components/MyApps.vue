@@ -27,14 +27,6 @@
         @showModal="hundleShowModal"
       />
       <Card
-        title="Quiq"
-        body="作って共有出来るQuiz投稿サービス"
-        fileName="my_apps/quiq.jpeg"
-        :tags="['ruby', 'rails', 'Vue', 'es6', 'heroku']"
-        link="https://quiz-quiq.herokuapp.com/"
-        @showModal="hundleShowModal"
-      />
-      <Card
         title="rails勉強Bot"
         body="railsのメソッドとGithubへのリンクを投稿するTwitterBot"
         fileName="my_apps/rails_study_bot.png"
