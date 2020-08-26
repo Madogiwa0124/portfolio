@@ -90,6 +90,14 @@
         link="https://madogiwa0124.github.io/ticktube/"
         @showModal="hundleShowModal"
       />
+      <Card
+        title="Markdown To Rspec"
+        body="converts text in markdown format into text in RSpec format."
+        fileName="my_apps/markdown_to_rspec.png"
+        :tags="['ruby', 'ruby gem']"
+        link="https://rubygems.org/gems/markdown_to_rspec"
+        @showModal="hundleShowModal"
+      />
     </div>
   </div>
 </template>
