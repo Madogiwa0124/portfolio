@@ -13,7 +13,7 @@
     "sass-loader": "^10.0.2",
     "vue": "^2.6.12",
     "vue-class-component": "^7.2.6",
-    "vue-property-decorator": "^9.0.0",
+    "vue-property-decorator": "^9.0.2",
     "kind-of": ">=6.0.3"
   },
   "devDependencies": {
