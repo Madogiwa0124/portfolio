@@ -7,7 +7,7 @@
       <Card fileName="skills/rails.png" />
       <Card fileName="skills/rspec.png" />
       <Card fileName="skills/sidekiq.png" />
-      <Card fileName="skills/es6.png" />
+      <Card fileName="skills/javascript.png" />
       <Card fileName="skills/vue.png" />
       <Card fileName="skills/mysql.png" />
       <Card fileName="skills/git.png" />

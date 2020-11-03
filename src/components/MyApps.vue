@@ -5,7 +5,7 @@
       <Card
         title="MultiTabMarkdownEditor"
         body="タブが使えるMarkdownEditor"
-        :tags="['Vue', 'es6', 'Vue-cli']"
+        :tags="['Vue', 'JavaScript', 'Vue-cli']"
         fileName="my_apps/multi_tab_markdown.png"
         link="https://madogiwa0124.github.io/multi-tab-markdown/dist/index.html"
         @showModal="hundleShowModal"
@@ -14,7 +14,7 @@
         title="dogfeeds"
         body="RssフィードをまとめたRssフィードを作れるWebサービス"
         fileName="my_apps/dogfeeds.png"
-        :tags="['ruby', 'rails', 'Vue', 'es6', 'heroku']"
+        :tags="['ruby', 'rails', 'Vue', 'JavaScript', 'heroku']"
         link="https://dogfeeds.herokuapp.com/"
         @showModal="hundleShowModal"
       />
@@ -86,7 +86,7 @@
         title="TickTube"
         body="YouTubeの動画をスワイプして閲覧できるViewer"
         fileName="my_apps/ticktube.png"
-        :tags="['Vue', 'TypeScript', 'es6', 'YouTube Date API']"
+        :tags="['Vue', 'TypeScript', 'JavaScript', 'YouTube Date API']"
         link="https://madogiwa0124.github.io/ticktube/"
         @showModal="hundleShowModal"
       />
@@ -102,7 +102,7 @@
         title="Markdown To Rspec Web"
         body="converts markdown text to RSpec text in a web browser."
         fileName="my_apps/markdown_to_rspec_web.png"
-        :tags="['rails', 'Vue', 'TypeScript', 'es6']"
+        :tags="['rails', 'Vue', 'TypeScript', 'JavaScript']"
         link="https://markdown-to-rspec-web.herokuapp.com/"
         @showModal="hundleShowModal"
       />
