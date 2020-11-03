@@ -4,7 +4,7 @@
       <h3 class="aboutme__content--title">Madogiwa</h3>
       <img class="aboutme__content--icon" src="https://pbs.twimg.com/profile_images/1060339222085697536/2f3ffaLs_400x400.jpg">
       <p class="aboutme__content--body">
-        都内のIT企業で働く窓際Webプログラマーです👩‍💻
+        都内のIT企業で働くWebプログラマーです👩‍💻
         <ul class="contacts">
           <li>
             Twitter:
@@ -19,7 +19,6 @@
             </a>
           </li>
         </ul>
-        <GithubActivity accountId="Madogiwa0124" />
       </p>
     </div>
   </div>
